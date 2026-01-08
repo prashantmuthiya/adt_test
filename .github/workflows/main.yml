@@ -11,9 +11,9 @@ jobs:
 
     steps:
       - name:  Checkout code 
-        uses: actions/chcekout@v4
+        uses: actions/checkout@v4
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
           with 
-            terrafrom_version 1.6.6
+            terraform_version 1.6.6
