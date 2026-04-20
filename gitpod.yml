@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: prod-pod
+  name: prod-pod1
   labels:
     env: prod
 spec:
   containers:
-    - name: my-prd-container
+    - name: my-prd-container1
       image: nginx:latest
       ports:
         - containerPort: 8080
